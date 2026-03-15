@@ -63,7 +63,7 @@ export default function Contact() {
               </div>
               <div>
                 <div className="contact-label">Email</div>
-                <a href="mailto:your@email.com" className="contact-val">your@email.com</a>
+                <a href="mailto:putthakun01@gmail.com" className="contact-val">putthakun01@gmail.com</a>
               </div>
             </div>
             <div className="contact-card">
@@ -85,7 +85,7 @@ export default function Contact() {
               </div>
               <div>
                 <div className="contact-label">LinkedIn</div>
-                <a href="#" className="contact-val">linkedin.com/in/putthakun</a>
+                <a href="https://www.linkedin.com/feed/" target="_blank" rel="noopener noreferrer" className="contact-val">linkedin.com/in/putthakun</a>
               </div>
             </div>
           </div>

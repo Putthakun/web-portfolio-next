@@ -1,19 +1,19 @@
 const jobs = [
   {
-    title: "Backend Engineer",
-    company: "Company Name",
-    period: "2023 — Present",
-    desc: "Led development of core API services handling millions of requests per day. Migrated legacy monolith to microservices architecture using Go and gRPC.",
-    tags: ["Go", "gRPC", "PostgreSQL", "K8s"],
-    goTags: ["Go"],
+    title: "Backend Developer (Project-based)",
+    company: "Sony Device Technology (Thailand)",
+    period: "Sep 2024 — Apr 2025",
+    desc: "Developed a Real-Time Face Recognition System collaborating directly with Sony's engineering team. Containerized the system with Docker, deployed behind Nginx as a load balancer, and hosted on AWS EC2 for production use. Presented updates and incorporated feedback to improve system performance.",
+    tags: ["Python", "FastAPI", "Redis", "RabbitMQ", "Docker", "Nginx", "AWS EC2"],
+    pythonTags: ["Python"],
   },
   {
-    title: "Junior Backend Developer",
-    company: "Another Company",
-    period: "2021 — 2023",
-    desc: "Built and maintained REST APIs using Python and FastAPI. Worked on data pipeline services integrating with third-party APIs.",
-    tags: ["Python", "FastAPI", "MongoDB", "Docker"],
-    pythonTags: ["Python"],
+    title: "Programmer Intern",
+    company: "Deverhood HT Company Limited",
+    period: "Apr 2024 — Jun 2024",
+    desc: "Developed SQL queries for data analysis and dashboards using Apache Superset. Redesigned and optimized an existing web application for desktop and mobile using Figma and Ant Design, improving responsiveness by implementing mobile-first responsive design.",
+    tags: ["SQL", "Apache Superset", "React.js", "Ant Design", "Figma"],
+    pythonTags: [],
   },
 ];
 
@@ -40,7 +40,7 @@ export default function Experience() {
                   {job.tags.map((t) => (
                     <span
                       key={t}
-                      className={`tag${job.goTags?.includes(t) ? " go" : ""}${job.pythonTags?.includes(t) ? " python" : ""}`}
+                      className={`tag${job.pythonTags?.includes(t) ? " python" : ""}`}
                     >
                       {t}
                     </span>

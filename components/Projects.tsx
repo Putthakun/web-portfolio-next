@@ -4,13 +4,6 @@ const IconGithub = () => (
   </svg>
 );
 
-const IconExternal = () => (
-  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
-    <polyline points="15 3 21 3 21 9" />
-    <line x1="10" y1="14" x2="21" y2="3" />
-  </svg>
-);
 
 export default function Projects() {
   return (
@@ -25,43 +18,22 @@ export default function Projects() {
             <div className="project-header">
               <span className="project-badge">Featured</span>
               <div className="project-links">
-                <a href="#" title="GitHub"><IconGithub /></a>
-                <a href="#" title="Live Demo"><IconExternal /></a>
+                <a href="https://github.com/Putthakun/webserver-recognition-SY" target="_blank" rel="noopener noreferrer" title="GitHub"><IconGithub /></a>
               </div>
             </div>
-            <h3 className="project-title">Real-Time Order Processing API</h3>
+            <h3 className="project-title">Real-Time Face Recognition System</h3>
             <p className="project-desc">
-              High-throughput REST API built with Go and Gin for processing
-              e-commerce orders. Handles 10,000+ requests/min with Redis
-              caching and PostgreSQL persistence.
+              Production face recognition system built with FastAPI, Redis, and
+              RabbitMQ for Sony Device Technology (Thailand). Deployed on AWS EC2
+              with Docker and Nginx as a load balancer for high availability.
             </p>
             <ul className="project-highlights">
-              <li>Reduced latency by 60% using connection pooling</li>
-              <li>Implemented JWT auth with refresh token rotation</li>
-              <li>Deployed on Kubernetes with horizontal pod autoscaling</li>
+              <li>Containerized with Docker for consistent environments</li>
+              <li>Nginx load balancer for scalability and reliability</li>
+              <li>Deployed on AWS EC2 for production access</li>
             </ul>
             <div className="project-tags">
-              {["Go", "Gin", "PostgreSQL", "Redis", "Docker", "K8s"].map((t) => (
-                <span key={t} className={`tag${t === "Go" ? " go" : ""}`}>{t}</span>
-              ))}
-            </div>
-          </div>
-
-          <div className="project-card">
-            <div className="project-header">
-              <div className="project-links">
-                <a href="#" title="GitHub"><IconGithub /></a>
-                <a href="#" title="Live Demo"><IconExternal /></a>
-              </div>
-            </div>
-            <h3 className="project-title">ML Model Serving Platform</h3>
-            <p className="project-desc">
-              FastAPI-based microservice for serving machine learning models
-              via REST endpoints. Supports async batch inference with
-              background task queuing.
-            </p>
-            <div className="project-tags">
-              {["Python", "FastAPI", "Celery", "RabbitMQ", "Docker"].map((t) => (
+              {["Python", "FastAPI", "Redis", "RabbitMQ", "Docker", "Nginx", "AWS EC2"].map((t) => (
                 <span key={t} className={`tag${t === "Python" ? " python" : ""}`}>{t}</span>
               ))}
             </div>
@@ -70,18 +42,18 @@ export default function Projects() {
           <div className="project-card">
             <div className="project-header">
               <div className="project-links">
-                <a href="#" title="GitHub"><IconGithub /></a>
+                <a href="https://github.com/Putthakun" target="_blank" rel="noopener noreferrer" title="GitHub"><IconGithub /></a>
               </div>
             </div>
-            <h3 className="project-title">Distributed Task Scheduler</h3>
+            <h3 className="project-title">AI Content Automation System</h3>
             <p className="project-desc">
-              A lightweight distributed task scheduler written in Go with
-              leader election using etcd. Supports cron-like expressions and
-              task persistence.
+              Automation system integrating Make.com and OpenAI API to
+              auto-generate SEO-optimized articles and images for marketing,
+              achieving 90% reduction in content creation time.
             </p>
             <div className="project-tags">
-              {["Go", "gRPC", "etcd", "PostgreSQL"].map((t) => (
-                <span key={t} className={`tag${t === "Go" ? " go" : ""}`}>{t}</span>
+              {["Python", "OpenAI API", "Make.com", "WordPress", "Facebook API"].map((t) => (
+                <span key={t} className={`tag${t === "Python" ? " python" : ""}`}>{t}</span>
               ))}
             </div>
           </div>
@@ -89,17 +61,17 @@ export default function Projects() {
           <div className="project-card">
             <div className="project-header">
               <div className="project-links">
-                <a href="#" title="GitHub"><IconGithub /></a>
-                <a href="#" title="Live Demo"><IconExternal /></a>
+                <a href="https://github.com/Putthakun?tab=repositories" target="_blank" rel="noopener noreferrer" title="GitHub"><IconGithub /></a>
               </div>
             </div>
-            <h3 className="project-title">Auth Service (OAuth 2.0 + OIDC)</h3>
+            <h3 className="project-title">Online Exam System</h3>
             <p className="project-desc">
-              Standalone authentication service implementing OAuth 2.0 and
-              OpenID Connect with Python/FastAPI. Supports social login and MFA.
+              Full-stack exam platform built with React and Django. Enables
+              teachers to create tests and students to view results, with
+              RESTful APIs and MySQL for secure exam access and score calculation.
             </p>
             <div className="project-tags">
-              {["Python", "FastAPI", "PostgreSQL", "Redis"].map((t) => (
+              {["Python", "Django", "React.js", "MySQL", "REST API"].map((t) => (
                 <span key={t} className={`tag${t === "Python" ? " python" : ""}`}>{t}</span>
               ))}
             </div>

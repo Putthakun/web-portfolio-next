@@ -5,33 +5,46 @@ const groups = [
   {
     title: "Languages",
     skills: [
-      { icon: "Go", cls: "go-icon", name: "Go (Golang)", w: "90%" },
       { icon: "Py", cls: "py-icon", name: "Python", w: "85%" },
+      { icon: "JS", cls: "go-icon", name: "JavaScript (ES6+)", w: "75%" },
       { icon: "SQL", cls: "sql-icon", name: "SQL", w: "80%" },
+      { icon: "C++", cls: "grpc-icon", name: "C / C++", w: "60%" },
     ],
   },
   {
     title: "Frameworks",
     skills: [
-      { icon: "Gin", cls: "gin-icon", name: "Gin / Fiber", w: "88%" },
       { icon: "FA", cls: "fa-icon", name: "FastAPI", w: "85%" },
-      { icon: "gRPC", cls: "grpc-icon", name: "gRPC", w: "70%" },
+      { icon: "Dj", cls: "gin-icon", name: "Django", w: "75%" },
+      { icon: "Nd", cls: "mongo-icon", name: "Node.js", w: "65%" },
+      { icon: "Re", cls: "redis-icon", name: "React.js", w: "65%" },
     ],
   },
   {
     title: "Databases",
     skills: [
-      { icon: "PG", cls: "pg-icon", name: "PostgreSQL", w: "85%" },
-      { icon: "Rd", cls: "redis-icon", name: "Redis", w: "78%" },
-      { icon: "Mg", cls: "mongo-icon", name: "MongoDB", w: "72%" },
+      { icon: "PG", cls: "pg-icon", name: "PostgreSQL", w: "80%" },
+      { icon: "My", cls: "sql-icon", name: "MySQL", w: "78%" },
+      { icon: "Rd", cls: "redis-icon", name: "Redis", w: "75%" },
+      { icon: "SS", cls: "mongo-icon", name: "SQL Server", w: "65%" },
     ],
   },
   {
-    title: "DevOps & Tools",
+    title: "DevOps & Cloud",
     skills: [
-      { icon: "Dkr", cls: "docker-icon", name: "Docker / Compose", w: "82%" },
-      { icon: "K8s", cls: "k8s-icon", name: "Kubernetes", w: "65%" },
-      { icon: "Git", cls: "git-icon", name: "Git / CI/CD", w: "88%" },
+      { icon: "Dkr", cls: "docker-icon", name: "Docker / Nginx", w: "82%" },
+      { icon: "AWS", cls: "k8s-icon", name: "AWS (EC2)", w: "65%" },
+      { icon: "Git", cls: "git-icon", name: "Git", w: "85%" },
+      { icon: "MQ", cls: "go-icon", name: "RabbitMQ", w: "70%" },
+      { icon: "Prom", cls: "grpc-icon", name: "Prometheus / Grafana", w: "60%" },
+    ],
+  },
+  {
+    title: "AI & Automation",
+    skills: [
+      { icon: "OAI", cls: "fa-icon", name: "OpenAI API", w: "80%" },
+      { icon: "n8n", cls: "py-icon", name: "n8n / Make.com", w: "75%" },
+      { icon: "PT", cls: "gin-icon", name: "PyTorch / scikit-learn", w: "60%" },
     ],
   },
 ];

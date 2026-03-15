@@ -6,20 +6,20 @@ export default function About() {
         <div className="about-grid">
           <div className="about-text">
             <h2>
-              A backend developer who cares about{" "}
-              <span className="accent">performance</span> and{" "}
-              <span className="accent">reliability</span>
+              A backend developer passionate about{" "}
+              <span className="accent">automation</span> and{" "}
+              <span className="accent">AI integration</span>
             </h2>
             <p>
-              I&apos;m a Backend Engineer with experience designing and building
-              RESTful APIs, microservices, and data-intensive applications. I
-              write clean, maintainable code and take pride in system design
-              decisions.
+              I&apos;m a Computer Science graduate experienced in building real-world
+              systems with FastAPI, Docker, and RabbitMQ, with a focus on
+              performance and scalability. I enjoy integrating AI technologies
+              like OpenAI API and image generation models to automate workflows.
             </p>
             <p>
-              When I&apos;m not coding, I enjoy reading about distributed
-              systems, contributing to open-source projects, and exploring new
-              backend technologies.
+              I&apos;m interested in cloud infrastructure and DevOps practices,
+              having deployed production systems on AWS EC2 with Docker and
+              Nginx. Currently exploring the path toward cloud engineering.
             </p>
             <div className="about-links">
               <a href="https://github.com/Putthakun" target="_blank" rel="noopener noreferrer" className="link-chip">
@@ -28,7 +28,7 @@ export default function About() {
                 </svg>
                 GitHub
               </a>
-              <a href="#" className="link-chip">
+              <a href="https://www.linkedin.com/feed/" target="_blank" rel="noopener noreferrer" className="link-chip">
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
                   <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
                 </svg>
@@ -59,11 +59,11 @@ export default function About() {
               </div>
               <div className="info-row">
                 <span className="info-label">Focus</span>
-                <span className="info-val">Backend / APIs</span>
+                <span className="info-val">Backend / Cloud</span>
               </div>
               <div className="info-row">
                 <span className="info-label">Education</span>
-                <span className="info-val">B.Eng Computer Engineering</span>
+                <span className="info-val">B.Cs Computer Science, KMUTNB</span>
               </div>
             </div>
           </div>
